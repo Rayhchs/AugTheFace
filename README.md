@@ -11,11 +11,11 @@ AugTheFace is computer vision-based script for image augmentation from images. I
     git clone https://github.com/Rayhchs/AugTheFace.git
     ```
 
-* Pre-trained weights
+* Download pre-trained weights
 
     Pre-trained checkpoints can be found in [LIA](https://github.com/wyhsirius/LIA). AugTheFace only uses vox.pt so put the model in `./checkpoints`. AugTheFace also uses dlib detector which can be downloaded [here](https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2).
 
-* Ubuntu Environment
+* Setup Environment
     ```shell script
     pip install -r requirements.txt
     ```
