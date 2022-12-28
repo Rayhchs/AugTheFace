@@ -62,4 +62,13 @@ MTCNN:
     ISSN={1070-9908}, 
     month={Oct}
 }
-```   
+```
+
+Widerface:
+```bibtex
+@inproceedings{yang2016wider,
+	Author = {Yang, Shuo and Luo, Ping and Loy, Chen Change and Tang, Xiaoou},
+	Booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+	Title = {WIDER FACE: A Face Detection Benchmark},
+	Year = {2016}}
+```
