@@ -20,16 +20,16 @@ parser.add_argument("--source_path", type=str,
                     default='./datasets/images/')
 parser.add_argument("--driving_path", type=str, default='./datasets/driving/')
 parser.add_argument("--save_folder", type=str, default='./res/widerface_aug/')
+parser.add_argument("--bbox_dir", type=str, default='./datasets/annotation/wider_face_train_bbx_gt.txt')
 args = parser.parse_args()
 
 def main():
+    
     # dlib
     detector = dlib.get_frontal_face_detector()
     predictor = dlib.shape_predictor('./shape_predictor_68_face_landmarks.dat')
 
-    bbox_dir = './datasets/annotation/wider_face_train_bbx_gt.txt'
-
-    with open(bbox_dir, 'r') as f:
+    with open(args.bbox_dir, 'r') as f:
         bbox = f.read().splitlines()
         
     init_dir = args.source_path
