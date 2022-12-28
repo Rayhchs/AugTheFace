@@ -1,8 +1,12 @@
-# AugTheFace - Face data augmentation from large images
+# AugTheFace
 
 ## AugTheFace?
 
-AugTheFace 
+AugTheFace is computer vision-based script for image augmentation from images. It uses the true bbox to crop the face images from images. Then, dlib based detector is used for identifying the face features. Those features are applied for preventing inappropriate face images. Using an image reenactment model created from ["Latent Image Animator: Learning to Animate Images via Latent Space Navigation"](https://openreview.net/pdf?id=7r6kDq0mK_), the available face images can imitate the driving images. Finally, it uses [MTCNN](https://arxiv.org/ftp/arxiv/papers/1604/1604.02878.pdf) to define the new bounding boxes of face images. The augmented face images are put back to original images following coordinate of new boxes.
+
+
+
+
 ### [Project Page](https://wyhsirius.github.io/LIA-project/) | [Paper](https://openreview.net/pdf?id=7r6kDq0mK_)
 This is the official PyTorch implementation of the ICLR 2022 paper "Latent Image Animator: Learning to Animate Images via Latent Space Navigation"
 
