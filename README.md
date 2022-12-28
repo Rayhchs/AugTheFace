@@ -2,7 +2,7 @@
 
 ## AugTheFace?
 
-AugTheFace is computer vision-based script for image augmentation from images. It uses the true bbox to crop the face images from images. Then, dlib based detector is used for identifying the face features. Those features are applied for preventing inappropriate face images. Using an image reenactment model created from ["Latent Image Animator: Learning to Animate Images via Latent Space Navigation"](https://openreview.net/pdf?id=7r6kDq0mK_), the available face images can imitate the driving images. Finally, it uses [MTCNN](https://arxiv.org/ftp/arxiv/papers/1604/1604.02878.pdf) to define the new bounding boxes of face images. The augmented face images are put back to original images following coordinate of new boxes.
+AugTheFace is computer vision-based script for image augmentation from images. It uses the true bbox to crop the face images from images. Then, dlib based detector is used for identifying the face features. Those features are applied for preventing inappropriate face images. Using an image reenactment model created from ["Latent Image Animator: Learning to Animate Images via Latent Space Navigation"](https://openreview.net/pdf?id=7r6kDq0mK_), the available face images can imitate the driving images. Finally, AugTheFace uses [MTCNN](https://arxiv.org/ftp/arxiv/papers/1604/1604.02878.pdf) to define the new bounding boxes of face images. The augmented face images are put back to original images following coordinate of new boxes. AugTheFace identifies all face images which are available, however, it saves image with single augmented face.
 
 
 
@@ -87,7 +87,7 @@ To obtain linear manipulation results of a single image, run
 python linear_manipulation.py --model <DATAET> --img_path <IMAGE_PATH> --save_folder <RESULTS_PATH>
 ```
 By default, results will be saved under `./res_manipulation`.
-## Citation
+## Ack
 If you find this code useful for your research, please consider citing our paper:
 ```bibtex
 @inproceedings{
