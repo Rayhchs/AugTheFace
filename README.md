@@ -1,4 +1,5 @@
 # AugTheFace
+<img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/cover.jpg">
 
 ## AugTheFace?
 
