@@ -1,5 +1,7 @@
 # AugTheFace
+<div align=center>
 <img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/cover.jpg" width="600">
+</div>
 
 ## AugTheFace?
 
