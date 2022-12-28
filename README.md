@@ -16,6 +16,10 @@ AugTheFace is computer vision-based script for image augmentation from images. I
 * Datasets
 
     AugTheFace uses the ground truth bbox followed by format of [widerface](http://shuoyang1213.me/WIDERFACE/support/bbx_annotation/wider_face_split.zip) for cropping the face images. Input image and driving image can be any types of image, however, face in driving image should occupy at least half of image.
+    
+* Results
+
+    Augmented images would be saved in `./res` defaultly. Please notice not all of images can be used for augmentation.
 
 
 ### Path Arguments
@@ -31,6 +35,8 @@ This repository uses widerface images for demo.
 
 <img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/demo1.gif"> <img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/demo2.gif">
 <img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/demo3.gif"> <img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/demo4.gif">
+<img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/demo5.gif"> <img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/demo6.gif">
+<img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/demo7.gif"> <img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/demo8.gif">
 
 ## Acknowledgement
 Code and pretrain weights heavily borrows from [LIA](https://github.com/wyhsirius/LIA) and [MTCNN](https://github.com/ipazc/mtcnn). Thanks for the excellent work!
