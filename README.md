@@ -25,7 +25,12 @@ AugTheFace is computer vision-based script for image augmentation from images. I
 |    driving_path   | Path of image where you want your source image to imitate |
 |    save_folder   | Where to save the augmented results |
 |    bbox_dir   | Truth data of bounding box of source images |
+
 ## Demo
+<img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/demo1.gif">
+<img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/demo2.gif">
+<img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/demo3.gif">
+<img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/demo4.gif">
 
 ## Acknowledgement
 Code and pretrain weights heavily borrows from [LIA](https://github.com/wyhsirius/LIA) and [MTCNN](https://github.com/ipazc/mtcnn). Thanks for the excellent work!
