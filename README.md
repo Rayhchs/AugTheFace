@@ -5,6 +5,12 @@
 AugTheFace is computer vision-based script for image augmentation from images. It uses the true bbox to crop the face images from images. Then, dlib based detector is used for identifying the face features. Those features are applied for preventing inappropriate face images. Using an image reenactment model created from ["Latent Image Animator: Learning to Animate Images via Latent Space Navigation"](https://openreview.net/pdf?id=7r6kDq0mK_), the available face images can imitate the driving images. Finally, AugTheFace uses [MTCNN](https://arxiv.org/ftp/arxiv/papers/1604/1604.02878.pdf) to define the new bounding boxes of face images. The augmented face images are put back to original images following coordinate of new boxes. AugTheFace identifies all face images which are available, however, it saves image with single augmented face.
 
 ## How to use?
+* Clone this repo
+
+    ```shell script
+    git clone https://github.com/Rayhchs/AugTheFace.git
+    ```
+
 * Pre-trained weights
 
     Pre-trained checkpoints can be found in [LIA](https://github.com/wyhsirius/LIA). AugTheFace only uses vox.pt so put the model in `./checkpoints`. AugTheFace also uses dlib detector which can be downloaded [here](https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2).
@@ -13,6 +19,7 @@ AugTheFace is computer vision-based script for image augmentation from images. I
     ```shell script
     pip install -r requirements.txt
     ```
+    
 * Datasets
 
     AugTheFace uses the ground truth bbox followed by format of [widerface](http://shuoyang1213.me/WIDERFACE/support/bbx_annotation/wider_face_split.zip) for cropping the face images. Input image and driving image can be any types of image, however, face in driving image should occupy at least half of image.
