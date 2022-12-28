@@ -27,6 +27,7 @@ AugTheFace is computer vision-based script for image augmentation from images. I
 |    bbox_dir   | Truth data of bounding box of source images |
 
 ## Demo
+This repository uses widerface images for demo.
 <img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/demo1.gif">
 <img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/demo2.gif">
 <img src="https://github.com/Rayhchs/AugTheFace/blob/main/images/demo3.gif">
