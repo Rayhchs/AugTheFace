@@ -26,7 +26,7 @@ AugTheFace is computer vision-based script for image augmentation from images. I
     
 * Results
 
-    Augmented images would be saved in `./res` defaultly. Please notice not all of images can be used for augmentation.
+    Augmented images would be saved in `./res` defaultly. Please notice that not all of images can be used for augmentation.
 
 
 ### Path Arguments
