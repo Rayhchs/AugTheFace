@@ -20,7 +20,8 @@ AugTheFace is computer vision-based script for image augmentation from images. I
 
 * Setup Environment
 
-python3.8.10
+    * python3.8.10
+
     ```shell script
     pip install -r requirements.txt
     ```
